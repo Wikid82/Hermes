@@ -7,7 +7,7 @@ tool github.com/evilmartians/lefthook/v2
 require (
 	al.essio.dev/pkg/shellescape v1.6.1 // indirect
 	charm.land/lipgloss/v2 v2.0.6 // indirect
-	github.com/bmatcuk/doublestar/v4 v4.10.2 // indirect
+	github.com/bmatcuk/doublestar/v4 v4.10.3 // indirect
 	github.com/briandowns/spinner v1.23.2 // indirect
 	github.com/charmbracelet/colorprofile v0.4.3 // indirect
 	github.com/charmbracelet/ultraviolet v0.0.0-20261008173134-6b8d4baf91b4 // indirect
