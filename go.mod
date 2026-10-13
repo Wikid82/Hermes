@@ -18,7 +18,7 @@ require (
 	github.com/clipperhouse/displaywidth v0.11.0 // indirect
 	github.com/clipperhouse/uax29/v2 v2.7.0 // indirect
 	github.com/creack/pty v1.1.24 // indirect
-	github.com/evilmartians/lefthook/v2 v2.2.1 // indirect
+	github.com/evilmartians/lefthook/v2 v2.2.2 // indirect
 	github.com/fatih/color v1.19.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.15 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
