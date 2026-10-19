@@ -23,6 +23,8 @@ echo "==========================================================================
 go get go@latest toolchain@latest
 # -t includes test-only dependencies, which Renovate also tracks
 go get -u -t ./...
+# Tool directives (e.g. lefthook) aren't covered by ./..., so bump them explicitly
+go get -u tool
 go mod tidy
 go mod verify
 
@@ -31,7 +33,7 @@ go mod verify
 # parse export data from a newer one (e.g. "export data version N is greater
 # than maximum supported version"). Installing here picks up the just-bumped
 # go directive so the tool is built with a matching toolchain.
-go install honnef.co/go/tools/cmd/staticcheck@latest
+go install honnef.co/go/tools/cmd/staticcheck@master
 go install golang.org/x/vuln/cmd/govulncheck@latest
 
 go vet ./...
