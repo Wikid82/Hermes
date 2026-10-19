@@ -7,6 +7,18 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.2](https://github.com/Wikid82/go_notify_yourself/compare/v0.3.1...v0.3.2) (2026-10-19)
+
+
+### Bug Fixes
+
+* **deps:** update doublestar to v4.10.3 and staticcheck to master ([1509cae](https://github.com/Wikid82/go_notify_yourself/commit/1509caee3892e834fb2b7ffd3be4f2b027dc941b))
+* **deps:** update gabriel-vasile/mimetype to v1.4.16 ([f7074d2](https://github.com/Wikid82/go_notify_yourself/commit/f7074d2416f557095f24ad83da03fa122252d710))
+* **deps:** update Go version to 1.27.2 and bump dependencies ([cf7a730](https://github.com/Wikid82/go_notify_yourself/commit/cf7a7308d52cbe0bec93e1aa20e1b0617dfdf721))
+* **deps:** update koanf to v2.4.0 ([15c3972](https://github.com/Wikid82/go_notify_yourself/commit/15c39728409c85b7a89e10b77fbd084badd5b0e4))
+* **deps:** update koanf to v2.4.1 ([d05ac8c](https://github.com/Wikid82/go_notify_yourself/commit/d05ac8ce5b393efde83f34f8f85d43fbf4e32d69))
+* **deps:** update lefthook to v2.2.2 ([a768215](https://github.com/Wikid82/go_notify_yourself/commit/a768215746cebf4eeaf80d771bbda9a903401a6f))
+
 ## [0.3.1](https://github.com/Wikid82/go_notify_yourself/compare/v0.3.0...v0.3.1) (2026-10-05)
 
 
