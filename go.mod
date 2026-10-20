@@ -1,6 +1,6 @@
 module github.com/Wikid82/go_notify_yourself
 
-go 1.27.2
+go 1.27.3
 
 tool github.com/evilmartians/lefthook/v2
 
