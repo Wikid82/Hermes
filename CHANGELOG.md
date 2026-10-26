@@ -7,6 +7,15 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.3](https://github.com/Wikid82/go_notify_yourself/compare/v0.3.2...v0.3.3) (2026-10-26)
+
+
+### Bug Fixes
+
+* **deps:** update charmbracelet/ultraviolet ([c70fe3b](https://github.com/Wikid82/go_notify_yourself/commit/c70fe3b977fb840a53d64103f2ca1eb0e17fd24c))
+* **deps:** update github.com/bmatcuk/doublestar to v4.10.4 ([00b3c31](https://github.com/Wikid82/go_notify_yourself/commit/00b3c31a859b845a8654cfb15fbac6b086814752))
+* **go.mod:** update Go version to 1.27.3 ([696b2b1](https://github.com/Wikid82/go_notify_yourself/commit/696b2b1a12e610c0617b7d649c7cbc482d14019b))
+
 ## [0.3.2](https://github.com/Wikid82/go_notify_yourself/compare/v0.3.1...v0.3.2) (2026-10-19)
 
 
