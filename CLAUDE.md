@@ -167,6 +167,13 @@ downstream consumers — that's the intent. GitHub Actions bumps stay `chore:` (
 non-releasable). Only `feat:`, `fix:`, `perf:`, `deps:`, and breaking changes trigger a
 release; `chore:` / `ci:` / `docs:` do not.
 
+## Git and Commit Guidelines
+
+- Do not append boilerplate text, disclaimers, or watermarks such as
+  "Claude Code helped produce this change." to commit messages, pull
+  request descriptions, or summaries.
+- Keep pull request summaries strictly focused on the changes introduced.
+
 ### Attribution (no session links)
 
 It's fine to note that a commit or PR was produced with Claude Code — do not go out of your way
