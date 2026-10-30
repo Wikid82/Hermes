@@ -2,7 +2,7 @@
 // registering all of them into the root notify package's registry as a
 // side effect. Import this package for its side effects only —
 //
-//	import _ "github.com/Wikid82/hermes/providers/all"
+//	import _ "github.com/Wikid82/Hermes/providers/all"
 //
 // — when you want every built-in provider type available to notify.New
 // without importing each provider package individually. This is the
@@ -16,19 +16,19 @@
 // transitive dependencies into your binary, even ones you never configure.
 // A consumer that wants tighter control over what's linked should
 // hand-pick individual provider imports instead (e.g.
-// import _ "github.com/Wikid82/hermes/providers/discord") —
+// import _ "github.com/Wikid82/Hermes/providers/discord") —
 // both styles are equally supported by the registry; neither requires a
 // different notify.Register/New API.
 package all
 
 import (
-	_ "github.com/Wikid82/hermes/providers/discord"
-	_ "github.com/Wikid82/hermes/providers/email"
-	_ "github.com/Wikid82/hermes/providers/gotify"
-	_ "github.com/Wikid82/hermes/providers/ntfy"
-	_ "github.com/Wikid82/hermes/providers/pushover"
-	_ "github.com/Wikid82/hermes/providers/slack"
-	_ "github.com/Wikid82/hermes/providers/telegram"
-	_ "github.com/Wikid82/hermes/providers/webhook"
-	_ "github.com/Wikid82/hermes/providers/webpush"
+	_ "github.com/Wikid82/Hermes/providers/discord"
+	_ "github.com/Wikid82/Hermes/providers/email"
+	_ "github.com/Wikid82/Hermes/providers/gotify"
+	_ "github.com/Wikid82/Hermes/providers/ntfy"
+	_ "github.com/Wikid82/Hermes/providers/pushover"
+	_ "github.com/Wikid82/Hermes/providers/slack"
+	_ "github.com/Wikid82/Hermes/providers/telegram"
+	_ "github.com/Wikid82/Hermes/providers/webhook"
+	_ "github.com/Wikid82/Hermes/providers/webpush"
 )

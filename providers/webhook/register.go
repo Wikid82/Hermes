@@ -3,9 +3,9 @@ package webhook
 import (
 	"fmt"
 
-	notify "github.com/Wikid82/hermes"
-	"github.com/Wikid82/hermes/providers/internal/regconfig"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	"github.com/Wikid82/Hermes/providers/internal/regconfig"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 // init registers this package's Factory under the name "webhook" with the

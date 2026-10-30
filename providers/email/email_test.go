@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	notify "github.com/Wikid82/hermes"
+	notify "github.com/Wikid82/Hermes"
 )
 
 type fakeMailer struct {

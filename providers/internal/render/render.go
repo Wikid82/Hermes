@@ -14,7 +14,7 @@ import (
 	"text/template"
 	"time"
 
-	notify "github.com/Wikid82/hermes"
+	notify "github.com/Wikid82/Hermes"
 )
 
 // MaxTemplateSize is the maximum accepted length, in bytes, of a template

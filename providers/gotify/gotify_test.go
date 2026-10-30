@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	notify "github.com/Wikid82/hermes"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 type capturingRoundTripper struct {

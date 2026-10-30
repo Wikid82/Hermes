@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	notify "github.com/Wikid82/hermes"
-	render "github.com/Wikid82/hermes/providers/internal/render"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	render "github.com/Wikid82/Hermes/providers/internal/render"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 // Config configures a Slack Incoming Webhook Sender.

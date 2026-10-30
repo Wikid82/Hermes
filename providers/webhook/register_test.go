@@ -3,8 +3,8 @@ package webhook
 import (
 	"testing"
 
-	notify "github.com/Wikid82/hermes"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 func TestRegister_NewReturnsWorkingSender(t *testing.T) {

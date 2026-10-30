@@ -94,13 +94,13 @@ interfaces) — see [ARCHITECTURE.md](../ARCHITECTURE.md) for the full rationale
 **1. Get the module:**
 
 ```sh
-go get github.com/Wikid82/hermes@v0.2.0
+go get github.com/Wikid82/Hermes@v0.2.0
 ```
 
 **2. Register the providers you want.** Either blank-import everything for zero-touch discovery:
 
 ```go
-import _ "github.com/Wikid82/hermes/providers/all"
+import _ "github.com/Wikid82/Hermes/providers/all"
 ```
 
 or hand-pick individual providers if you'd rather control exactly what's linked into your binary
@@ -108,8 +108,8 @@ or hand-pick individual providers if you'd rather control exactly what's linked 
 
 ```go
 import (
-	_ "github.com/Wikid82/hermes/providers/discord"
-	_ "github.com/Wikid82/hermes/providers/email"
+	_ "github.com/Wikid82/Hermes/providers/discord"
+	_ "github.com/Wikid82/Hermes/providers/email"
 )
 ```
 

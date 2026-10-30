@@ -5,7 +5,7 @@ dispatch with retries, and a common `Sender` interface across Discord, Slack, Go
 Ntfy, Telegram, generic webhooks, email, and direct browser Web Push.
 
 ```
-go get github.com/Wikid82/hermes
+go get github.com/Wikid82/Hermes
 ```
 
 ## Why
@@ -30,10 +30,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/Wikid82/hermes/providers/discord"
-	"github.com/Wikid82/hermes/transport"
+	"github.com/Wikid82/Hermes/providers/discord"
+	"github.com/Wikid82/Hermes/transport"
 
-	notify "github.com/Wikid82/hermes"
+	notify "github.com/Wikid82/Hermes"
 )
 
 func main() {
@@ -113,8 +113,8 @@ or config file), not hardcoded at compile time.
 
 ```go
 import (
-	notify "github.com/Wikid82/hermes"
-	_ "github.com/Wikid82/hermes/providers/all" // registers all 9 built-in providers
+	notify "github.com/Wikid82/Hermes"
+	_ "github.com/Wikid82/Hermes/providers/all" // registers all 9 built-in providers
 )
 
 wrapper := transport.NewWrapper()
