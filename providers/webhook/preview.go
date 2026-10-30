@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	notify "github.com/Wikid82/go_notify_yourself"
-	render "github.com/Wikid82/go_notify_yourself/providers/internal/render"
+	notify "github.com/Wikid82/hermes"
+	render "github.com/Wikid82/hermes/providers/internal/render"
 )
 
 // RenderPreview renders tmplStr against msg without dispatching it —

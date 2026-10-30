@@ -1,4 +1,4 @@
-module github.com/Wikid82/go_notify_yourself
+module github.com/Wikid82/hermes
 
 go 1.27.3
 

@@ -1,4 +1,4 @@
-# go_notify_yourself — Claude Code Instructions
+# hermes — Claude Code Instructions
 
 Do NOT use worktrees. Make all changes directly on the current working branch.
 

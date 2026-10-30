@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	notify "github.com/Wikid82/go_notify_yourself"
+	notify "github.com/Wikid82/hermes"
 )
 
 func TestSelectTemplate(t *testing.T) {

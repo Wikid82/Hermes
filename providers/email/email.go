@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	notify "github.com/Wikid82/go_notify_yourself"
+	notify "github.com/Wikid82/hermes"
 )
 
 // Mailer transports an already-composed email. The host application owns

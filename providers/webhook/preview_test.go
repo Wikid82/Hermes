@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	notify "github.com/Wikid82/go_notify_yourself"
+	notify "github.com/Wikid82/hermes"
 )
 
 func TestRenderPreviewMinimalTemplate(t *testing.T) {

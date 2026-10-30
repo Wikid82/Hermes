@@ -3,7 +3,7 @@ package all
 import (
 	"testing"
 
-	notify "github.com/Wikid82/go_notify_yourself"
+	notify "github.com/Wikid82/hermes"
 )
 
 // wantProviderCount is the number of built-in provider packages this

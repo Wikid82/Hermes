@@ -3,8 +3,8 @@ package ntfy
 import (
 	"testing"
 
-	notify "github.com/Wikid82/go_notify_yourself"
-	"github.com/Wikid82/go_notify_yourself/transport"
+	notify "github.com/Wikid82/hermes"
+	"github.com/Wikid82/hermes/transport"
 )
 
 func TestRegister_NewReturnsWorkingSender(t *testing.T) {

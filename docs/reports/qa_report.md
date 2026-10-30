@@ -192,7 +192,7 @@ example teaches host authors to put that value in their own logs on every failed
 unrelated reason, e.g. a transient 503).
 
 **Severity**: LOW. This is documentation/example code, not a runtime code path in the library
-itself — it doesn't cause `go_notify_yourself` to leak anything on its own. But it's still exactly
+itself — it doesn't cause `hermes` to leak anything on its own. But it's still exactly
 the "example code" surface this review was asked to check, and it actively steers a host toward
 logging a credential-equivalent value, which running `go vet`/`staticcheck`/tests cannot catch
 since it's prose, not compiled code.

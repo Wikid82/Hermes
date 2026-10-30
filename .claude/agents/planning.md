@@ -9,7 +9,7 @@ dependency-free Go notification-delivery library.
 <context>
 
 - **MANDATORY**: Read `CLAUDE.md` at the project root before starting.
-- go_notify_yourself is a standalone Go module extracted from Charon: SSRF-safe outbound HTTP
+- hermes is a standalone Go module extracted from Charon: SSRF-safe outbound HTTP
   dispatch with retries, and a per-provider `Sender` interface.
 - **Non-negotiable**: this module never imports `github.com/Wikid82/charon/*`. Every
   environment-specific need is a constructor-injected interface (`ClientFactory`, `URLValidator`,
