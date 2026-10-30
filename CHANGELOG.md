@@ -7,6 +7,14 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.4](https://github.com/Wikid82/Hermes/compare/v0.3.3...v0.3.4) (2026-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update golang.org/x/net to v0.62.0 ([3e22b71](https://github.com/Wikid82/Hermes/commit/3e22b7152e1d0f8ea17c42d1bbd9ea40c9427756))
+* rename go_notify_yourself to hermes across the codebase ([7a535af](https://github.com/Wikid82/Hermes/commit/7a535af7e7370df69e6d333ca8d102dddc30b2aa))
+
 ## [0.3.3](https://github.com/Wikid82/hermes/compare/v0.3.2...v0.3.3) (2026-10-26)
 
 
