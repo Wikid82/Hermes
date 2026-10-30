@@ -1,4 +1,4 @@
-module github.com/Wikid82/hermes
+module github.com/Wikid82/Hermes
 
 go 1.27.3
 
