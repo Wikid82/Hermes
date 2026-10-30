@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"strings"
 
-	notify "github.com/Wikid82/hermes"
-	render "github.com/Wikid82/hermes/providers/internal/render"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	render "github.com/Wikid82/Hermes/providers/internal/render"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 // DefaultTTL is used for the RFC 8030 "TTL" header when Config.TTL is zero.

@@ -16,7 +16,7 @@ echo "Running tests with coverage (minimum ${MIN_COVERAGE}%)..."
 # coverage they have nothing to cover.
 PKGS_WITH_TESTS=()
 while IFS= read -r pkg; do
-    dir="${pkg#github.com/Wikid82/hermes}"
+    dir="${pkg#github.com/Wikid82/Hermes}"
     dir=".${dir}"
     if compgen -G "${dir}/*_test.go" > /dev/null 2>&1; then
         PKGS_WITH_TESTS+=("$pkg")

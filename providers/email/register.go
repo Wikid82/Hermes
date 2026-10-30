@@ -3,8 +3,8 @@ package email
 import (
 	"fmt"
 
-	notify "github.com/Wikid82/hermes"
-	"github.com/Wikid82/hermes/providers/internal/regconfig"
+	notify "github.com/Wikid82/Hermes"
+	"github.com/Wikid82/Hermes/providers/internal/regconfig"
 )
 
 // init registers this package's Factory under the name "email" with the

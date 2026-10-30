@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"strings"
 
-	notify "github.com/Wikid82/hermes"
-	render "github.com/Wikid82/hermes/providers/internal/render"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	render "github.com/Wikid82/Hermes/providers/internal/render"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 // MinimalTemplate and DetailedTemplate are the module's built-in JSON

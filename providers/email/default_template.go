@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"time"
 
-	notify "github.com/Wikid82/hermes"
+	notify "github.com/Wikid82/Hermes"
 )
 
 // defaultHTML is the module's single built-in email template: neutral,

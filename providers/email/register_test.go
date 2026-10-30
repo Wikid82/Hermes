@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	notify "github.com/Wikid82/hermes"
+	notify "github.com/Wikid82/Hermes"
 )
 
 func TestRegister_NewReturnsWorkingSender(t *testing.T) {

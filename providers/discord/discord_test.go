@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	notify "github.com/Wikid82/hermes"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 // capturingRoundTripper fabricates an HTTP response without ever dialing a

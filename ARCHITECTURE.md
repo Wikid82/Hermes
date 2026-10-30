@@ -125,9 +125,9 @@ package <name>
 import (
 	"fmt"
 
-	notify "github.com/Wikid82/hermes"
-	"github.com/Wikid82/hermes/providers/internal/regconfig"
-	"github.com/Wikid82/hermes/transport"
+	notify "github.com/Wikid82/Hermes"
+	"github.com/Wikid82/Hermes/providers/internal/regconfig"
+	"github.com/Wikid82/Hermes/transport"
 )
 
 func init() {
@@ -168,7 +168,7 @@ Key/type conventions:
 Add one blank-import line to `providers/all/all.go`:
 
 ```go
-_ "github.com/Wikid82/hermes/providers/<name>"
+_ "github.com/Wikid82/Hermes/providers/<name>"
 ```
 
 **This step has no compiler safety net.** A new provider that registers itself correctly but isn't

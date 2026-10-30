@@ -38,4 +38,4 @@ release:
   header: |
     ## hermes {{ .Tag }}
 
-    `go get github.com/Wikid82/hermes@{{ .Tag }}`
+    `go get github.com/Wikid82/Hermes@{{ .Tag }}`
