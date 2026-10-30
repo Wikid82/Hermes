@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"strings"
 
-	notify "github.com/Wikid82/go_notify_yourself"
-	render "github.com/Wikid82/go_notify_yourself/providers/internal/render"
-	"github.com/Wikid82/go_notify_yourself/transport"
+	notify "github.com/Wikid82/hermes"
+	render "github.com/Wikid82/hermes/providers/internal/render"
+	"github.com/Wikid82/hermes/transport"
 )
 
 // MinimalTemplate and DetailedTemplate are the module's built-in JSON

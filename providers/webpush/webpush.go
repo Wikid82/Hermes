@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"strings"
 
-	notify "github.com/Wikid82/go_notify_yourself"
-	render "github.com/Wikid82/go_notify_yourself/providers/internal/render"
-	"github.com/Wikid82/go_notify_yourself/transport"
+	notify "github.com/Wikid82/hermes"
+	render "github.com/Wikid82/hermes/providers/internal/render"
+	"github.com/Wikid82/hermes/transport"
 )
 
 // DefaultTTL is used for the RFC 8030 "TTL" header when Config.TTL is zero.

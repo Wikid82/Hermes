@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/Wikid82/go_notify_yourself/transport"
+	"github.com/Wikid82/hermes/transport"
 )
 
 func newIntegrationWrapper() *transport.Wrapper {

@@ -10,9 +10,9 @@ import (
 	"regexp"
 	"strings"
 
-	notify "github.com/Wikid82/go_notify_yourself"
-	render "github.com/Wikid82/go_notify_yourself/providers/internal/render"
-	"github.com/Wikid82/go_notify_yourself/transport"
+	notify "github.com/Wikid82/hermes"
+	render "github.com/Wikid82/hermes/providers/internal/render"
+	"github.com/Wikid82/hermes/transport"
 )
 
 // Config configures a Discord webhook Sender.

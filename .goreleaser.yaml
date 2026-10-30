@@ -1,12 +1,12 @@
 version: 2
 
-# go_notify_yourself is a pure Go library (`go get` consumer), not a
+# hermes is a pure Go library (`go get` consumer), not a
 # deployable. Unlike a typical GoReleaser config, there is intentionally no
 # builds/archives/nfpms/dockers section — nothing here produces a binary or
 # container image. This config exists purely to drive changelog generation
 # and the GitHub Release entry on every tagged version.
 
-project_name: go_notify_yourself
+project_name: hermes
 
 # A Go library has no binary artifact to produce for a release — consumers
 # `go get` the tagged module directly. GoReleaser defaults to building a
@@ -34,8 +34,8 @@ changelog:
 release:
   github:
     owner: Wikid82
-    name: go_notify_yourself
+    name: hermes
   header: |
-    ## go_notify_yourself {{ .Tag }}
+    ## hermes {{ .Tag }}
 
-    `go get github.com/Wikid82/go_notify_yourself@{{ .Tag }}`
+    `go get github.com/Wikid82/hermes@{{ .Tag }}`

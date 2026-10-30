@@ -1,13 +1,13 @@
 # Architecture
 
-This document describes how `go_notify_yourself` is put together, with enough precision that a
+This document describes how `hermes` is put together, with enough precision that a
 human contributor **or a coding agent** can add a new provider correctly without guessing. For a
 usage-focused quick-start, see [README.md](./README.md). For integrating this module into your own
 project end-to-end, see [docs/INTEGRATION.md](./docs/INTEGRATION.md).
 
 ## 1. Module overview
 
-`go_notify_yourself` is a standalone, dependency-free Go module for outbound notification delivery.
+`hermes` is a standalone, dependency-free Go module for outbound notification delivery.
 It has four layers:
 
 1. **Root package (`notify`)** — `Message` (the generic, provider-agnostic payload), `Sender` (the
@@ -25,7 +25,7 @@ It has four layers:
 The module never assumes anything about the host application. Every environment-specific concern —
 the HTTP client, the SSRF policy, the SMTP transport, HTML templates — is a constructor-injected
 interface supplied by the caller (`transport.ClientFactory`, `transport.URLValidator`,
-`email.Mailer`, `email.TemplateRenderer`). This is why `go_notify_yourself` must never import
+`email.Mailer`, `email.TemplateRenderer`). This is why `hermes` must never import
 anything from a host application's own module — see the non-negotiable design rule in
 [CLAUDE.md](./CLAUDE.md).
 
@@ -125,9 +125,9 @@ package <name>
 import (
 	"fmt"
 
-	notify "github.com/Wikid82/go_notify_yourself"
-	"github.com/Wikid82/go_notify_yourself/providers/internal/regconfig"
-	"github.com/Wikid82/go_notify_yourself/transport"
+	notify "github.com/Wikid82/hermes"
+	"github.com/Wikid82/hermes/providers/internal/regconfig"
+	"github.com/Wikid82/hermes/transport"
 )
 
 func init() {
@@ -168,7 +168,7 @@ Key/type conventions:
 Add one blank-import line to `providers/all/all.go`:
 
 ```go
-_ "github.com/Wikid82/go_notify_yourself/providers/<name>"
+_ "github.com/Wikid82/hermes/providers/<name>"
 ```
 
 **This step has no compiler safety net.** A new provider that registers itself correctly but isn't

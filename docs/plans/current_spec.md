@@ -35,7 +35,7 @@ Ntfy, webhook, Telegram, email).
   is dead/unwired today (confirmed in `/projects/Charon/docs/plans/notify_provider_registry_spec.md`
   §2.4/§3.1) — wiring it up to actually carry a `>2`-field provider config like webpush's is
   explicitly **out of scope for this module's spec**. This plan only concerns
-  `go_notify_yourself`; wiring Charon's UI/DB to construct a `webpush.Config` is separate,
+  `hermes`; wiring Charon's UI/DB to construct a `webpush.Config` is separate,
   downstream work the maintainer has not asked for here.
 - **No literal RFC 8030 `TTL: 0` ("attempt-only, don't store") escape hatch.** See §3.3's TTL
   discussion — this is a deliberate, documented simplification, not an oversight.

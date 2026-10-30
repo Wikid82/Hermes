@@ -11,7 +11,7 @@ module other repos `go get`.
 
 - **Governance**: When this agent file conflicts with `CLAUDE.md`, defer to `CLAUDE.md`.
 - **MANDATORY**: Read `CLAUDE.md` before starting.
-- **Project**: go_notify_yourself — SSRF-safe outbound HTTP dispatch + retries, per-provider
+- **Project**: hermes — SSRF-safe outbound HTTP dispatch + retries, per-provider
   `Sender` interface (Discord, Slack, Gotify, Pushover, Ntfy, webhook, Telegram, email).
 - **Stack**: Go only, standard library plus what's already in `go.mod` — no new third-party
   runtime dependencies without an explicit ask.

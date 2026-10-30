@@ -3,9 +3,9 @@ package slack
 import (
 	"fmt"
 
-	notify "github.com/Wikid82/go_notify_yourself"
-	"github.com/Wikid82/go_notify_yourself/providers/internal/regconfig"
-	"github.com/Wikid82/go_notify_yourself/transport"
+	notify "github.com/Wikid82/hermes"
+	"github.com/Wikid82/hermes/providers/internal/regconfig"
+	"github.com/Wikid82/hermes/transport"
 )
 
 // init registers this package's Factory under the name "slack" with the

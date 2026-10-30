@@ -1,11 +1,11 @@
-# go_notify_yourself
+# hermes
 
 A standalone, dependency-free Go module for notification delivery: SSRF-safe outbound HTTP
 dispatch with retries, and a common `Sender` interface across Discord, Slack, Gotify, Pushover,
 Ntfy, Telegram, generic webhooks, email, and direct browser Web Push.
 
 ```
-go get github.com/Wikid82/go_notify_yourself
+go get github.com/Wikid82/hermes
 ```
 
 ## Why
@@ -30,10 +30,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/Wikid82/go_notify_yourself/providers/discord"
-	"github.com/Wikid82/go_notify_yourself/transport"
+	"github.com/Wikid82/hermes/providers/discord"
+	"github.com/Wikid82/hermes/transport"
 
-	notify "github.com/Wikid82/go_notify_yourself"
+	notify "github.com/Wikid82/hermes"
 )
 
 func main() {
@@ -113,8 +113,8 @@ or config file), not hardcoded at compile time.
 
 ```go
 import (
-	notify "github.com/Wikid82/go_notify_yourself"
-	_ "github.com/Wikid82/go_notify_yourself/providers/all" // registers all 9 built-in providers
+	notify "github.com/Wikid82/hermes"
+	_ "github.com/Wikid82/hermes/providers/all" // registers all 9 built-in providers
 )
 
 wrapper := transport.NewWrapper()
