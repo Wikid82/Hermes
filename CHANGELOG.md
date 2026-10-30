@@ -7,6 +7,13 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.5](https://github.com/Wikid82/Hermes/compare/v0.3.4...v0.3.5) (2026-10-30)
+
+
+### Bug Fixes
+
+* rename package from 'hermes' to 'Hermes' ([76ec1e2](https://github.com/Wikid82/Hermes/commit/76ec1e2691f0981572435111d7ba856e0de90c71))
+
 ## [0.3.4](https://github.com/Wikid82/Hermes/compare/v0.3.3...v0.3.4) (2026-10-30)
 
 
