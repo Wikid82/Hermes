@@ -1,0 +1,55 @@
+# Zensical configuration for the Hermes documentation site.
+#
+# The site is a published view of three repo-root Markdown files, copied into the
+# git-ignored docs-site/docs/ by scripts/sync-docs.sh before every build. Edit the
+# originals (README.md, docs/INTEGRATION.md, ARCHITECTURE.md), never docs-site/docs/.
+#
+# Build locally (from docs-site/):
+#   bash scripts/sync-docs.sh && zensical build --strict
+
+[project]
+site_url = "https://wikid82.github.io/Hermes/"
+site_name = "Hermes"
+site_description = "Notification delivery for Go: SSRF-safe dispatch, retries, and a uniform Sender interface."
+repo_url = "https://github.com/Wikid82/Hermes"
+repo_name = "Wikid82/Hermes"
+
+# Page order and titles. Files are produced by scripts/sync-docs.sh.
+nav = [
+  { "Overview" = "index.md" },
+  { "Integration" = "integration.md" },
+  { "Architecture" = "architecture.md" },
+]
+
+[project.theme]
+language = "en"
+features = [
+  "content.code.copy",
+  "content.tooltips",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+# Light and dark palettes are selected by the browser/OS colour-scheme preference.
+# No toggle is rendered, so the site always follows the system setting.
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+tables = {}
+toc.permalink = true
+pymdownx.highlight = {}
+pymdownx.superfences = {}
+pymdownx.magiclink = {}

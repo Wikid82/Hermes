@@ -43,6 +43,13 @@
       "semanticCommitType": "chore"
     },
     {
+      "description": "Zensical (docs-site/ static site generator) is docs tooling only — it never ships in the published Go module, so keep bumps as chore: (non-releasable) rather than deps: (cuts a release).",
+      "matchManagers": ["pip_requirements"],
+      "matchFileNames": ["docs-site/requirements.txt"],
+      "matchPackageNames": ["zensical"],
+      "semanticCommitType": "chore"
+    },
+    {
       "description": "Group npm non-major updates into one PR",
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
