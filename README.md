@@ -8,6 +8,9 @@ Ntfy, Telegram, generic webhooks, email, and direct browser Web Push.
 go get github.com/Wikid82/Hermes
 ```
 
+Full documentation (this README, the integration guide, and the architecture reference) is published
+at **https://wikid82.github.io/Hermes/**.
+
 ## Why
 
 Most projects that need to fire off a Discord/Slack/email alert end up re-implementing the same

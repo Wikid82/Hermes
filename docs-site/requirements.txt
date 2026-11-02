@@ -1,0 +1,3 @@
+# Documentation site tooling (Python is used ONLY for docs; the Go module has no Python dependency).
+# Pinned exactly. Renovate tracks this file (see .github/renovate.json).
+zensical==0.0.74

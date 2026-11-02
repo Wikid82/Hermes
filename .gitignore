@@ -3,3 +3,9 @@ coverage.txt
 dist/
 *.test
 scripts/tempCodeRunnerFile.sh
+
+# Documentation site (docs-site/): sources are copied in by scripts/sync-docs.sh,
+# build output and the local Python venv are never committed.
+docs-site/docs/
+docs-site/site/
+docs-site/.venv/

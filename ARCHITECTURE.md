@@ -259,3 +259,16 @@ Under this module's semver policy:
 
 This is stated explicitly here so a contributor (or a coding agent) doesn't have to guess at PR/tag
 time.
+
+## 6. Repository layout and documentation site
+
+Beyond the Go packages above, the repository carries these non-library directories:
+
+- `docs-site/` — the published documentation site, built with [Zensical](https://pypi.org/project/zensical/)
+  (pinned in `docs-site/requirements.txt`; Python is used only for this docs tooling, never by the Go
+  module). `docs-site/zensical.toml` defines the nav (Overview, Integration, Architecture).
+  `docs-site/scripts/sync-docs.sh` copies `README.md`, `docs/INTEGRATION.md`, and `ARCHITECTURE.md` into
+  the git-ignored `docs-site/docs/` and rewrites cross-file links; the originals are never edited, so
+  there is no duplicated hand-maintained content.
+- `.github/workflows/docs.yml` — builds the site with `zensical build --strict` and deploys it to GitHub
+  Pages on pushes to `main` that touch the docs sources.
