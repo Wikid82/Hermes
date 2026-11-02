@@ -7,6 +7,13 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.6](https://github.com/Wikid82/Hermes/compare/v0.3.5...v0.3.6) (2026-11-02)
+
+
+### Bug Fixes
+
+* **deps:** update go.yaml.in/yaml dependency to v3.0.6 ([e000e4a](https://github.com/Wikid82/Hermes/commit/e000e4a3586e7310602b9a798d53cf81d4ab41c1))
+
 ## [0.3.5](https://github.com/Wikid82/Hermes/compare/v0.3.4...v0.3.5) (2026-10-30)
 
 
