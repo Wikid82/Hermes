@@ -42,6 +42,19 @@
       "dependencyDashboardApproval": true
     },
     {
+      "description": "Indirect Go dependencies: patch and minor only. Major bumps of transitive modules are the most likely to break the build, so they are left to the direct dependency that pulls them in.",
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchDepTypes": [
+        "indirect"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "enabled": false
+    },
+    {
       "description": "Group GitHub Actions non-major updates into one PR",
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["major","minor", "patch", "pin", "digest"],
