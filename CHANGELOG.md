@@ -7,6 +7,16 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.7](https://github.com/Wikid82/Hermes/compare/v0.3.6...v0.3.7) (2026-11-08)
+
+
+### Bug Fixes
+
+* **ci:** bump step-security/harden-runner to v2.22.4 ([3e234c2](https://github.com/Wikid82/Hermes/commit/3e234c2eb3b8e5dfe24ab0f235bd1689869ee303))
+* **ci:** update CodeQL action versions to v4.39.3 ([31902d8](https://github.com/Wikid82/Hermes/commit/31902d8d6e1619887bba86a05872b0b1e7705e4b))
+* **deps:** update zensical to v0.1.0 and add zensicle script for version management ([b8e0ca1](https://github.com/Wikid82/Hermes/commit/b8e0ca11fe50d45c01f3ef7a3d02bb08b6ad8d81))
+* update github.com/xo/terminfo to v1.3.1 ([f5e73b8](https://github.com/Wikid82/Hermes/commit/f5e73b8aa2cab5099f0e0e5df3165d729a01b93a))
+
 ## [0.3.6](https://github.com/Wikid82/Hermes/compare/v0.3.5...v0.3.6) (2026-11-02)
 
 
