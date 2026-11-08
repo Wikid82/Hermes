@@ -2,5 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "description": "Track indirect Go dependencies on the dependency dashboard. Renovate skips them by default. Approval-gated so no PR opens until ticked in the dashboard.",
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchDepTypes": [
+        "indirect"
+      ],
+      "enabled": true,
+      "dependencyDashboardApproval": true
+    }
   ]
 }
