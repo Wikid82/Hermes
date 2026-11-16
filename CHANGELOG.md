@@ -7,6 +7,13 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.9](https://github.com/Wikid82/Hermes/compare/v0.3.8...v0.3.9) (2026-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependencyDashboard configuration to enable option ([23250c0](https://github.com/Wikid82/Hermes/commit/23250c00bc70eb43f5ce920c61aab241e9c51e1b))
+
 ## [0.3.8](https://github.com/Wikid82/Hermes/compare/v0.3.7...v0.3.8) (2026-11-16)
 
 
