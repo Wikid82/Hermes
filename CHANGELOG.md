@@ -7,6 +7,21 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.8](https://github.com/Wikid82/Hermes/compare/v0.3.7...v0.3.8) (2026-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update charm.land/lipgloss to v2.1.0 and add script for managing Go module dependencies ([3321c4f](https://github.com/Wikid82/Hermes/commit/3321c4f635cb8814d8ca905e0f9f0a635cdde190))
+* **deps:** update charm.land/lipgloss to v2.1.1 ([89b11d8](https://github.com/Wikid82/Hermes/commit/89b11d85451c99844332e3c643cd7cf9e6071559))
+* **deps:** update golang.org/x/mod to v0.43.0 and add x-mod.sh script for managing Go module dependencies ([7e8cb48](https://github.com/Wikid82/Hermes/commit/7e8cb48338f389d7c091e158907365fc77a25efb))
+* **deps:** update golang.org/x/sync to v0.25.0 and add x-sync.sh script for managing Go module dependencies ([df20a0a](https://github.com/Wikid82/Hermes/commit/df20a0ac45ea5a61e1065fcba597a8b1f655f0de))
+* **deps:** update golang.org/x/term to v0.48.0 and add x-term.sh script for managing Go module dependencies ([eaf6ef7](https://github.com/Wikid82/Hermes/commit/eaf6ef73427f206fba51a8bffda2da02d1e8486e))
+* **deps:** update golang.org/x/text to v0.44.0 and add x-text.sh script for managing Go module dependencies ([4f1fd44](https://github.com/Wikid82/Hermes/commit/4f1fd44df61d8ecc50c56a8273e535c9dc206e70))
+* **deps:** update tidwall/jsonc to v0.3.4 and add script for managing Go module updates ([332fdfc](https://github.com/Wikid82/Hermes/commit/332fdfc857ef1b4c5de4020ba54f0986d711c33e))
+* **deps:** update zensical to version 0.1.1 in requirements.txt ([de35487](https://github.com/Wikid82/Hermes/commit/de35487dec28302d11dbc6a0daa6afb41b28d342))
+* **go:** update Go version to 1.27.4 in go.mod ([b380019](https://github.com/Wikid82/Hermes/commit/b380019063dbb7922176b6a77eb1360ddbb4443a))
+
 ## [0.3.7](https://github.com/Wikid82/Hermes/compare/v0.3.6...v0.3.7) (2026-11-08)
 
 
