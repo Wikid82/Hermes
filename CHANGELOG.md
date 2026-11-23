@@ -7,6 +7,20 @@ via [GoReleaser](https://goreleaser.com/) on every tagged release.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.3.10](https://github.com/Wikid82/Hermes/compare/v0.3.9...v0.3.10) (2026-11-23)
+
+
+### Bug Fixes
+
+* **ci:** update Go setup action to version 7.1.0 ([8f24bad](https://github.com/Wikid82/Hermes/commit/8f24bad232521f9bd6d0911ae2ac5a8ee18e4cb6))
+* **deps:** update charmbracelet/x/ansi to v0.11.10 and add x-ansi.sh script for module updates ([69de7c3](https://github.com/Wikid82/Hermes/commit/69de7c3af41c966b6786a19f4f2ef4c95318dd14))
+* **deps:** update github.com/bmatcuk/doublestar to v4.10.5 and add update script ([7b3aeb0](https://github.com/Wikid82/Hermes/commit/7b3aeb0a93939ce4335ffdef5b04c7eed9c4dbad))
+* **deps:** update github.com/bmatcuk/doublestar to v4.10.7 ([35e8462](https://github.com/Wikid82/Hermes/commit/35e8462d10ca7303c27f82f98c6dcae54117f73d))
+* **deps:** update github/codeql-action to v4.39.4 ([adfbea7](https://github.com/Wikid82/Hermes/commit/adfbea7d9f5334476b7cad995c075c36818c635b))
+* **deps:** update golang.org/x/net to v0.63.0 and add x-net.sh script for module updates ([455d096](https://github.com/Wikid82/Hermes/commit/455d0965885d27c859ebdd9e0c05a85e8bef7fcc))
+* **deps:** update zensical to version 0.1.3 ([2be74a4](https://github.com/Wikid82/Hermes/commit/2be74a4ac0bc8ccfd3025ef2e761b129155210e2))
+* **docs:** update zensical version to 0.1.2 ([18834b2](https://github.com/Wikid82/Hermes/commit/18834b2e1577398a01ed818136cd0d61fb0d42ad))
+
 ## [0.3.9](https://github.com/Wikid82/Hermes/compare/v0.3.8...v0.3.9) (2026-11-16)
 
 
